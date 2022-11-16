@@ -48,7 +48,7 @@ body {
     margin-top: 56px;
 }
 
-.header-wrapper{
+.wrapper{
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
@@ -80,7 +80,67 @@ body {
 /*intro styles start*/
 
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/intro.jpg) no-repeat center;
     background-size: cover;
+}
+
+.intro-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    padding-top: 263px;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+
+.intro-info {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    margin-bottom: 59px;
+}
+
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-field {
+    width: 297px;
+    margin-right: 60px;
+    background: transparent url(../img/svg/circle.svg) no-repeat left 2px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.search-field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.search-button {
+    padding: 15px 40px;
+    background-color: #1B7DFF;
+    border: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.search-button:active, .search-button:hover, .search-button:focus {
+    background-color: #2d5fa0;
 }
