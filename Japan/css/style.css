@@ -122,6 +122,7 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: white;
+    margin-bottom: 376px;
 }
 
 .search-field::placeholder {
@@ -144,3 +145,36 @@ body {
 .search-button:active, .search-button:hover, .search-button:focus {
     background-color: #2d5fa0;
 }
+
+/*intro styles end*/
+
+
+
+/*benefits styles start*/
+
+.benefits_wrapper {
+    max-width: 1262px;
+    background-color: white;
+    margin: 0 auto;
+   position: relative;
+   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+.benefits_title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    transform: translateY(-100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.benefits_cards {
+    height: 30vh;
+}
+
+/*benefits styles end*/
