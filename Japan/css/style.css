@@ -174,7 +174,50 @@ body {
 }
 
 .benefits_cards {
-    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 45px 112px 100px;
 }
 
+.benefits_card {
+    max-width: 315px;
+    margin-left: 55px;
+}
+
+.benefits_card:first-child {
+    margin-left: 0;
+} 
+
+.benefits_img {
+    margin-bottom: 37px;
+    size: 65px 65px;
+}
+
+.benefit_title {
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.benefit_info {
+    margin-bottom: 39px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.benefit_learn {
+    width: 160px;
+    text-decoration: none;
+    color: #006DFE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.benefit_arrow {
+    padding-left: 26px;
+    padding-bottom: 126px;
+}
 /*benefits styles end*/
