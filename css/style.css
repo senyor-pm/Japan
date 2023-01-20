@@ -343,4 +343,93 @@ img {
     z-index: 4;
 }
 
+.toure-cards{
+    margin-top: 130px;
+}
+.toure-description{
+    padding-right: 47px;
+    padding-left: 47px;
+}
+.toure{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+}
+.toure-title{
+    padding-bottom: 85px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.toure-text{
+    padding-bottom: 58px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.toure-link {
+    text-decoration: none;
+    color: #006DFE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: url(../img/svg/shape.svg) no-repeat 90% center;
+    padding-right: 59px;
+    transition: .3s all;
+}
+
+.toure-link:hover, .toure-link:focus {
+    background: url(../img/svg/shape.svg) no-repeat right center;
+}
+.toure-c {
+    margin-bottom: 77px;
+}
+
 /*travel styles end*/
+
+/*top places styles start*/
+
+.top-title{
+    margin-bottom: 64px;
+}
+.top-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px;
+}
+.top-card{
+    position: relative;
+}
+.top-card-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px 25px;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.top-card-stats-title{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 0 0;
+}
+.top-card-stats-likes{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background: url(../img/svg/heart-icon.svg) no-repeat right;
+    margin-right: 14px;
+    padding-right: 20px;
+}
+.top-card-stats-comments{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background: url(../img/svg/comment-icon.svg) no-repeat right;
+    padding-right: 23px;
+    margin-right: ;
+}
+/*top places styles end*/
