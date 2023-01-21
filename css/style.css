@@ -396,8 +396,9 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 55px;
 }
-.top-card{
+.top-card-picture{
     position: relative;
+    margin-bottom: 45px;
 }
 .top-card-stats{
     display: flex;
@@ -430,6 +431,24 @@ img {
     color: white;
     background: url(../img/svg/comment-icon.svg) no-repeat right;
     padding-right: 23px;
-    margin-right: ;
+}
+.top-card-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 43px;
+}
+.top-card-link{
+    font-size: 16px;
+    padding: 12px 19px;
+    background:#006DFE;
+    text-decoration: none;
+    color: white;
+}
+.top-card-link:hover, .top-card-link:focus, .top-card-link:active{
+    background: #2d5fa0;
+}
+.top-card{
+    margin-bottom: 69px;
 }
 /*top places styles end*/
